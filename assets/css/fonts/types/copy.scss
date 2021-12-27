@@ -1,0 +1,104 @@
+/* 3 */
+
+@mixin copy-3 {
+  font-size: 2.369rem;
+  line-height: 1.514;
+}
+
+@mixin copy-3-bold {
+  @include copy-3;
+  font-weight: 700;
+}
+
+@mixin copy-3-normal {
+  @include copy-3;
+  font-weight: 300;
+}
+
+/* 2 */
+
+@mixin copy-2 {
+  font-size: 1.777rem;
+  line-height: 1.562;
+}
+
+@mixin copy-2-bold {
+  @include copy-2;
+  font-weight: 700;
+}
+
+@mixin copy-2-medium {
+  @include copy-2;
+  font-weight: 500;
+}
+
+@mixin copy-2-normal {
+  @include copy-2;
+  font-weight: 300;
+}
+
+/* 1 */
+
+@mixin copy-1 {
+  font-size: 1.333rem;
+  line-height: 1.598;
+}
+
+@mixin copy-1-bold {
+  @include copy-1;
+  font-weight: 700;
+}
+
+@mixin copy-1-medium {
+  @include copy-1;
+  font-weight: 500;
+}
+
+@mixin copy-1-normal {
+  @include copy-1;
+  font-weight: 300;
+}
+
+/* 0 */
+
+@mixin copy-0 {
+  font-size: 1rem;
+  line-height: 1.625;
+}
+
+@mixin copy-0-bold {
+  @include copy-0;
+  font-weight: 700;
+}
+
+@mixin copy-0-medium {
+  @include copy-0;
+  font-weight: 500;
+}
+
+@mixin copy-0-normal {
+  @include copy-0;
+  font-weight: 400;
+}
+
+/* -1 */
+
+@mixin copy-minus1 {
+  font-size: 0.8125rem;
+  line-height: 1.645;
+}
+
+@mixin copy-minus1-bold {
+  @include copy-minus1;
+  font-weight: 700;
+}
+
+@mixin copy-minus1-medium {
+  @include copy-minus1;
+  font-weight: 500;
+}
+
+@mixin copy-minus1-normal {
+  @include copy-minus1;
+  font-weight: 400;
+}

@@ -1,0 +1,23 @@
+$screen-smallest: 320px;
+$screen-phone: 576px;
+$screen-tablet: 768px;
+$screen-desktop: 1024px;
+$screen-biggest: 1920px; /* big chungus 🐰 */
+
+@mixin screen-min($min) {
+  @media (min-width: $min) {
+    @content;
+  }
+}
+
+@mixin screen-max($max) {
+  @media (max-width: $max) {
+    @content;
+  }
+}
+
+@mixin screen-minmax($min, $max) {
+  @media (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+} ;

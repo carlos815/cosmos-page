@@ -1,0 +1,66 @@
+/* 2 */
+@mixin solid-2 {
+  font-size: 1.777rem;
+  line-height: 1;
+}
+
+@mixin solid-2-bold {
+  @include solid-2;
+  font-weight: 700;
+}
+
+@mixin solid-2-medium {
+  @include solid-2;
+  font-weight: 500;
+}
+
+/* 1 */
+
+@mixin solid-1 {
+  font-size: 1.333rem;
+  line-height: 1;
+}
+
+@mixin solid-1-bold {
+  @include solid-1;
+  font-weight: 700;
+}
+
+@mixin solid-1-medium {
+  @include solid-1;
+  font-weight: 500;
+}
+
+/* 0 */
+
+@mixin solid-0 {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+@mixin solid-0-bold {
+  @include solid-0;
+  font-weight: 700;
+}
+
+@mixin solid-0-medium {
+  @include solid-0;
+  font-weight: 500;
+}
+
+/* -1 */
+
+@mixin solid-minus1 {
+  font-size: 0.8125rem;
+  line-height: 1;
+}
+
+@mixin solid-minus1-bold {
+  @include solid-minus1;
+  font-weight: 700;
+}
+
+@mixin solid-minus1-medium {
+  @include solid-minus1;
+  font-weight: 500;
+}
