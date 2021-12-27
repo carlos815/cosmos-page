@@ -7,14 +7,14 @@
 </template>
 
 <script>
-import Header from "@/components/Header.vue";
-import Background from "@/components/Background.vue";
+import Header from "../components/Header.vue";
+import Background from "../components/Background.vue";
 
 export default { components: { Header, Background } };
 </script>
 
 <style lang="scss">
-@import "@/assets/css/main.scss";
+@import "../assets/css/main.scss";
 
 body {
   min-height: 100vh;

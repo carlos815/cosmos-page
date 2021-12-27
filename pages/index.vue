@@ -12,9 +12,9 @@
 
 <script lang="ts">
 import Vue from "vue";
-import Visuals from "@/components/Visuals.vue";
+import Visuals from "../components/Visuals.vue";
 
-import "@/assets/css/colors/main.scss";
+import "../assets/css/colors/main.scss";
 
 export default Vue.extend({
   name: "IndexPage",
@@ -24,7 +24,7 @@ export default Vue.extend({
 </script>
 
 <style lang="scss">
-@import "@/assets/css/main.scss";
+@import "../assets/css/main.scss";
 
 .index-page-content {
   min-height: calc(100vh - $header-height);
