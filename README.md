@@ -1,6 +1,7 @@
 # cosmos-page
 
 LIVE DEMO: https://carlos815.github.io/cosmos-page/
+
 Note: after compiling, the nav bar doesn't work as expected 🤷‍♂️ I shall fix that soon. Leaving this note here just in case someone looks at it before I fix it
 
 ## Build Setup
