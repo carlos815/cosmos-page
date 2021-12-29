@@ -12,14 +12,13 @@
 
 <script lang="ts">
 import Vue from "vue";
-import Visuals from "../components/Visuals.vue";
 
 import "../assets/css/colors/main.scss";
 
 export default Vue.extend({
   name: "IndexPage",
   layout: "home",
-  components: { Visuals },
+  components: {},
 });
 </script>
 

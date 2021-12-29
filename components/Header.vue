@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <div v-show="!isMobile" class="full-nav">
+    <div v-if="!isMobile" class="full-nav" id="full-nav">
       <div class="logo"><img src="../assets/images/cosmos-logo.svg" /></div>
       <ul>
         <li><router-link to="/learn">Learn</router-link></li>
@@ -11,10 +11,10 @@
       <router-link to="/Start" class="call-to-action"> Start Now </router-link>
     </div>
 
-    <div v-show="isMobile" class="mobile-nav">
+    <div v-else class="mobile-nav" id="mobile-nav">
       <div class="logo"><img src="../assets/images/cosmos-logo.svg" /></div>
 
-      <ul v-show="isNavMenuOpen">
+      <ul v-show="isNavMenuOpen" id="mobile-nav-menu">
         <li><router-link to="/learn">Learn</router-link></li>
         <li><router-link to="/build">Build</router-link></li>
         <li><router-link to="/explore">Explore</router-link></li>
@@ -37,7 +37,7 @@ export default {
   data() {
     return {
       isNavMenuOpen: false,
-      isMobile: true,
+      isMobile: false,
       windowWidth: null,
     };
   },

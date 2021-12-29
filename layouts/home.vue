@@ -7,10 +7,7 @@
 </template>
 
 <script>
-import Header from "../components/Header";
-import Background from "../components/Background";
-
-export default { components: { Header, Background } };
+export default {};
 </script>
 
 <style lang="scss">
